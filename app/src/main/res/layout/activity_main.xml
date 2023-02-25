@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic"
+    android:weightSum="8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="Tasbih Fatima"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="1st kalma 100 Times"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="Astaghfar 100 times"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="DAROOD 100 TIMES"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="AYAT E KAREEMA 100 TIMES"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="131dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00000000"
+            android:insetLeft="5dp"
+            android:insetTop="6dp"
+            android:insetRight="5dp"
+            android:insetBottom="6dp"
+            android:text="RESET"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="SELECT  TASBEEH"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/plaintext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="150sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:backgroundTint="#00000000"
+        android:insetLeft="5dp"
+        android:insetTop="6dp"
+        android:insetRight="5dp"
+        android:insetBottom="6dp"
+        android:text="Count"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
